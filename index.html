@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo NOVAES: Inovação e Saneamento Sustentável</title>
+    <!-- Inclui Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inclui Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Define a fonte Inter para todo o corpo do documento */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Cor de fundo suave */
+            color: #334155; /* Cor de texto padrão */
+        }
+        /* Estilos para o contêiner principal para centralizar e adicionar padding */
+        .container {
+            max-width: 1024px; /* Largura máxima para o conteúdo */
+            margin: 0 auto; /* Centraliza o contêiner */
+            padding: 2rem; /* Espaçamento interno */
+        }
+        /* Estilos para seções e cards */
+        .section-card {
+            background-color: #ffffff; /* Fundo branco para os cards */
+            border-radius: 0.75rem; /* Cantos arredondados */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Sombra suave */
+            padding: 2rem; /* Espaçamento interno */
+            margin-bottom: 2rem; /* Margem inferior entre os cards */
+        }
+        /* Estilos para títulos de seção */
+        .section-title {
+            font-size: 2.25rem; /* Tamanho da fonte grande */
+            font-weight: 700; /* Negrito */
+            color: #005F6E; /* Cor principal mais escura para títulos */
+            margin-bottom: 1.5rem; /* Margem inferior */
+            text-align: center; /* Centraliza o texto */
+        }
+        /* Estilos para subtítulos */
+        .subsection-title {
+            font-size: 1.75rem; /* Tamanho da fonte médio */
+            font-weight: 600; /* Semi-negrito */
+            color: #007B8F; /* Cor principal */
+            margin-top: 1.5rem; /* Margem superior */
+            margin-bottom: 1rem; /* Margem inferior */
+        }
+        /* Estilos para itens de lista */
+        .list-item {
+            display: flex; /* Usa flexbox para alinhar ícone e texto */
+            align-items: flex-start; /* Alinha itens ao topo */
+            margin-bottom: 0.75rem; /* Margem inferior */
+        }
+        .list-item-icon {
+            font-size: 1.5rem; /* Tamanho do ícone */
+            margin-right: 0.75rem; /* Espaçamento à direita do ícone */
+            color: #007B8F; /* Cor principal para os ícones */
+            min-width: 1.5rem; /* Garante largura mínima para o ícone */
+            text-align: center; /* Centraliza o ícone */
+        }
+        /* Estilos para descrições de projetos */
+        .project-card {
+            background-color: #f9fafb; /* Fundo mais claro para cards de projeto */
+            border-left: 4px solid #00A3BF; /* Borda esquerda colorida com tom mais claro */
+            border-radius: 0.5rem; /* Cantos arredondados */
+            padding: 1.5rem; /* Espaçamento interno */
+            margin-top: 1rem; /* Margem superior */
+            margin-bottom: 1rem; /* Margem inferior */
+        }
+        .project-title {
+            font-size: 1.25rem; /* Tamanho da fonte do título do projeto */
+            font-weight: 600; /* Semi-negrito */
+            color: #005F6E; /* Cor principal mais escura */
+            margin-bottom: 0.5rem; /* Margem inferior */
+            display: flex; /* Usa flexbox para alinhar ícone e título */
+            align-items: center; /* Alinha itens ao centro */
+        }
+        .project-icon {
+            font-size: 1.5rem; /* Tamanho do ícone do projeto */
+            margin-right: 0.5rem; /* Espaçamento à direita do ícone */
+            color: #00A3BF; /* Cor principal mais clara para os ícones de projeto */
+        }
+        .project-description {
+            font-size: 1rem; /* Tamanho da fonte da descrição */
+            color: #4b5563; /* Cor de texto mais suave */
+            margin-bottom: 0.5rem; /* Margem inferior */
+        }
+        .project-benefits {
+            font-size: 0.95rem; /* Tamanho da fonte dos benefícios */
+            color: #6b7280; /* Cor de texto mais clara */
+            font-style: italic; /* Itálico */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Título principal da organização -->
+        <header class="text-center mb-8">
+            <h1 class="section-title text-5xl" style="color: #005F6E;">Grupo NOVAES: Inovação e Saneamento Sustentável <i class="fas fa-rocket text-4xl"></i></h1>
+            <p class="text-lg text-gray-700 mt-4">
+                O Grupo NOVAES é uma organização visionária e comprometida, dedicada a impulsionar o saneamento sustentável através de soluções inovadoras e tecnologicamente avançadas. Nossa atuação reflete um profundo compromisso com a saúde pública, a preservação ambiental e a otimização de recursos, sempre buscando o equilíbrio entre o desenvolvimento e a sustentabilidade.
+            </p>
+        </header>
+
+        <!-- Seção de Áreas de Atuação Principal -->
+        <section class="section-card">
+            <h2 class="subsection-title" style="color: #007B8F;">Áreas de Atuação Principal <i class="fas fa-water text-2xl"></i> <i class="fas fa-leaf text-2xl"></i></h2>
+
+            <h3 class="text-2xl font-semibold" style="color: #007B8F;">Saneamento Sustentável</h3>
+            <p class="text-gray-700 mb-6">
+                A base da nossa atuação reside no <strong style="color: #005F6E;">saneamento sustentável</strong>, onde aplicamos expertise técnica e inovação para desenvolver e implementar projetos que fazem a diferença. Nossas atividades abrangem:
+            </p>
+
+            <ul class="space-y-4">
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fas fa-tint"></i></span>
+                    <div>
+                        <strong class="text-lg text-gray-800">Gestão Eficiente de Recursos Hídricos:</strong>
+                        <p class="text-gray-600">Implementação de sistemas e estratégias para o uso consciente e otimizado da água, minimizando desperdícios e garantindo a disponibilidade para as futuras gerações.</p>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fas fa-flask"></i></span>
+                    <div>
+                        <strong class="text-lg text-gray-800">Tratamento de Efluentes:</strong>
+                        <p class="text-gray-600">Desenvolvimento e operação de estações de tratamento de esgoto e resíduos líquidos, garantindo que a água devolvida ao meio ambiente esteja em conformidade com os mais rigorosos padrões de qualidade.</p>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fas fa-recycle"></i></span>
+                    <div>
+                        <strong class="text-lg text-gray-800">Reuso de Água:</strong>
+                        <p class="text-gray-600">Projetos que permitem a purificação e o reuso de águas tratadas para fins não potáveis (como irrigação, uso industrial ou descarga em vasos sanitários), promovendo a economia de água potável.</p>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fas fa-city"></i></span>
+                    <div>
+                        <strong class="text-lg text-gray-800">Infraestrutura de Saneamento:</strong>
+                        <p class="text-gray-600">Planejamento e construção de redes de coleta, adutoras e sistemas de distribuição que garantem o acesso a serviços de saneamento de qualidade para comunidades.</p>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fas fa-bullhorn"></i></span>
+                    <div>
+                        <strong class="text-lg text-gray-800">Educação Ambiental e Conscientização:</strong>
+                        <p class="text-gray-600">Iniciativas para engajar a comunidade na importância do saneamento e na adoção de práticas sustentáveis.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Seção de Nova Frente de Inovação -->
+        <section class="section-card">
+            <h2 class="subsection-title" style="color: #007B8F;">Nova Frente de Inovação: Tecnologia e Digitalização <i class="fas fa-lightbulb text-2xl"></i> <i class="fas fa-laptop-code text-2xl"></i></h2>
+            <p class="text-gray-700 mb-6">
+                Reconhecendo que a tecnologia é um pilar fundamental para o futuro, o Grupo NOVAES está investindo proativamente em um novo e estratégico setor de inovação. Esta frente é dedicada ao <strong style="color: #005F6E;">desenvolvimento de plataformas e tecnologias digitais</strong> que não apenas complementarão nossas operações de saneamento, mas também criarão novas oportunidades de mercado e otimizarão a eficiência interna. Nosso objetivo é transformar dados em inteligência e processos manuais em fluxos automatizados e intuitivos.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card: Aplicativo de Cálculos Hidráulicos -->
+                <div class="project-card">
+                    <h3 class="project-title"><span class="project-icon"><i class="fas fa-mobile-alt"></i></span> Aplicativo de Cálculos Hidráulicos <span class="project-icon"><i class="fas fa-calculator"></i></span></h3>
+                    <p class="project-description">
+                        Uma ferramenta digital robusta e intuitiva, projetada para auxiliar engenheiros, projetistas e técnicos na execução de cálculos hidráulicos complexos. O aplicativo visa simplificar o dimensionamento de tubulações, bombas, vazões e pressões, garantindo maior precisão e agilidade no planejamento de projetos de saneamento.
+                    </p>
+                    <p class="project-benefits">
+                        <strong style="color: #007B8F;">Benefícios:</strong> Redução de erros manuais, otimização do tempo de projeto, padronização de cálculos e acesso a informações técnicas em campo.
+                    </p>
+                </div>
+
+                <!-- Card: Plataforma de Treinamentos de Segurança para Funcionários -->
+                <div class="project-card">
+                    <h3 class="project-title"><span class="project-icon"><i class="fas fa-user-graduate"></i></span> Plataforma de Treinamentos de Segurança para Funcionários <span class="project-icon"><i class="fas fa-shield-alt"></i></span></h3>
+                    <p class="project-description">
+                        Um ambiente online interativo e dinâmico, dedicado à capacitação contínua e à atualização dos colaboradores em todas as normas e práticas de segurança do trabalho. A plataforma contará com módulos personalizados, vídeos instrutivos, quizzes de avaliação e certificação.
+                    </p>
+                    <p class="project-benefits">
+                        <strong style="color: #007B8F;">Benefícios:</strong> Aumento da segurança no ambiente de trabalho, redução de acidentes, conformidade com regulamentações e desenvolvimento profissional da equipe.
+                    </p>
+                </div>
+
+                <!-- Card: Sistema Gerenciador de EPI -->
+                <div class="project-card">
+                    <h3 class="project-title"><span class="project-icon"><i class="fas fa-gloves"></i></span> Sistema Gerenciador de EPI (Equipamento de Proteção Individual) <span class="project-icon"><i class="fas fa-hard-hat"></i></span></h3>
+                    <p class="project-description">
+                        Uma solução digital completa para o controle e a gestão eficiente de todos os Equipamentos de Proteção Individual. O sistema permitirá o registro detalhado de cada EPI (tipo, tamanho, data de compra, validade), o acompanhamento do histórico de uso por funcionário, o agendamento de substituições e a emissão de relatórios de conformidade.
+                    </p>
+                    <p class="project-benefits">
+                        <strong style="color: #007B8F;">Benefícios:</strong> Garantia da segurança dos trabalhadores, otimização do estoque de EPIs, redução de custos com perdas e maior controle sobre a distribuição e manutenção.
+                    </p>
+                </div>
+
+                <!-- Card: Sistema de Gerenciamento de Arquivos dos Projetos de Saneamento -->
+                <div class="project-card">
+                    <h3 class="project-title"><span class="project-icon"><i class="fas fa-folder"></i></span> Sistema de Gerenciamento de Arquivos dos Projetos de Saneamento <span class="project-icon"><i class="fas fa-chart-line"></i></span></h3>
+                    <p class="project-description">
+                        Uma plataforma centralizada e segura para organizar, armazenar e facilitar o acesso a toda a documentação e dados relacionados aos projetos de saneamento. Incluirá controle de versão, permissões de acesso, busca avançada e integração com outras ferramentas de projeto.
+                    </p>
+                    <p class="project-benefits">
+                        <strong style="color: #007B8F;">Benefícios:</strong> Melhoria na colaboração entre equipes, rastreabilidade completa das informações, redução de perdas de documentos e agilidade na consulta de dados históricos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="text-center text-gray-600 mt-8 text-sm">
+            <p>Com essa expansão estratégica, o Grupo NOVAES reafirma seu compromisso inabalável com a inovação e a excelência. Estamos construindo um futuro onde o saneamento sustentável é potencializado pela tecnologia, gerando impacto positivo e duradouro para as comunidades e o planeta.</p>
+        </footer>
+    </div>
+</body>
+</html>
